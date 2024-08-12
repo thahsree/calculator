@@ -1,3 +1,4 @@
+
 body{
     background-color:rgb(0, 0, 0);
 }
@@ -18,21 +19,29 @@ body{
     transition: background-color 0.4s;
     
 }
-.display{
+.calci{
+
+    width: 500px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.display {
     font-size: 70px;
     font-family: Helvetica, sans-serif;
-    margin: 10px;
     border: none;
     text-align: right;
-    padding: 20px;
-    margin-right: 70px;
+    padding: 0px 70px;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
-    width: 380px;
+    width: 100%;
+    box-sizing: border-box;
+    direction: rtl; 
 }
 main{
-    text-align: center;
-
+    
+   
+    display: flex;
+    justify-content: center;
     
 }
 header{

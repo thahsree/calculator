@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+
+    .display{
+        padding: 0px 50px;
+        font-size: 50px;
+    }
+    .numbers{
+        font-size:10px;
+        width: 50px;
+    }
+    .buttons #num_0{
+        width: 115px;
+    }
+}

@@ -176,7 +176,7 @@ btn_equal.onclick = ()=>{
             case "/":
                 result = newValue===0? 'Error' : oldValue / newValue; 
                 
-                display.value=result;
+                display.value= parseFloat(result).toFixed(2);
                 break;
             case "x": 
                 result = oldValue * newValue;
